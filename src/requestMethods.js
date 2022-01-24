@@ -9,5 +9,5 @@ export const publicRequest = axios.create({
 
 export const userRequest = axios.create({
   baseURL: BASE_URL,
-  headers: { token: `Bearer ${TOKEN}` },
+  headers: { token: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWRhOWMwZWRhNjU2NjQ1MDcwZGJjOCIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0Mjk3Mzk5NSwiZXhwIjoxNjQzNTc4Nzk1fQ.60HDauT_elJwcofhoyZsTa46Q0PfmAJH5l6o09lv-hI` },
 });
